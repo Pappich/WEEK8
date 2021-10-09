@@ -5,9 +5,9 @@ int main()
 	char n1[100],n2[100]; 
 	int l1,l2;  
 	printf("Enter Number:"); 
-	scanf("%s",&n1); 
+	scanf_s("%s",&n1); 
 	printf("Enter Number:"); 
-	scanf("%s",&n2); 
+	scanf_s("%s",&n2); 
 	for(l1=0; n1[l1]!='\0'; l1++)
 	{
 		num1[l1] = n1[l1]-'0'; 	
