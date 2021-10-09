@@ -5,7 +5,7 @@ int main()
 	char num1[100],num2[100],s[100];
 	int i,j,k,l1,l2,sum,carry=0;
 	printf("Enter Number:"); 
-	scanf_s("%s",&num1);
+	scanf_s("%s", &num1);
 	printf("Enter Number:"); 
 	scanf_s("%s", &num2); 
 	l1 = strlen(num1);
